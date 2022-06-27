@@ -1,0 +1,223 @@
+:root{
+  --fontePrincipal: #3F3E41;
+  --fundoMenu: #FFFFFF;
+  --fundoDescricao: #BFC6DF;
+  --fundoMain: #FFFFFF;
+  --fonteMain: #333333;
+  --fundoSobre: #F9F9F9;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+/* Cabeçalho */
+.navbar{
+    background-color: white;
+}
+
+.search-button{
+
+    margin-left: 5px;
+}
+
+#cadastrar{
+    color: black;
+    margin: auto;
+    margin-right: 10px;
+}
+
+#cadastrar:hover{
+    color: lightslategray;
+    transition: .3s;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border: 3px solid rgba(191, 198, 223, 0.7)
+}
+
+#Login{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-style: groove;
+    border-color: rgba(191, 198, 223, 0.7);
+    background-color: rgba(191, 198, 223, 0.7);
+    border-radius: 7px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#Login:hover{
+    background-color: lightslategray;
+    transition: .5s;
+}
+
+/* Carousel */
+#home {
+    background-color: white;
+}
+
+/* Sobre o Espaço */
+#reservar{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    border-style: groove;
+    border-color: rgba(191, 198, 223, 0.7);
+    background-color: rgba(191, 198, 223, 0.7);
+    border-radius: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+#reserva{
+  padding-top: 75px;
+}
+
+#reservar:hover{
+    background-color: lightslategray;
+    transition: .5s;
+}
+
+/* Calendario */
+
+html {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-size: 125%;
+    line-height: 1.4;
+    font-weight: 400;
+    color: var(--blue-grey-900);
+  }
+  
+body {
+    min-height: 100vh;
+    background: var(--blue-grey-100);
+  }
+  
+main {
+    max-width: max-content;
+    margin: 3em auto 0 auto;
+    padding: 1.5em;
+    background-color: #fff;
+    border: 2px solid var(--blue-grey-200);
+    border-radius: 8px;
+  }
+  
+.month-indicator {
+    color: var(--blue-grey-700);
+    text-align: center;
+    font-weight: 500;
+  }
+  
+.day-of-week,
+.date-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+header.day-of-week {
+    margin-top: 1.25em;
+  }
+  
+.day-of-week > * {
+    font-size: 0.7em;
+    color: var(--blue-grey-400);
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    text-align: center;
+  }
+  
+.date-grid {
+    margin-top: 0.5em;
+  }
+
+.date-grid button:first-child {
+    grid-column: 6;
+  }
+  
+.date-grid button {
+    position: relative;
+    border: 0;
+    width: 4.5ch;
+    height: 4.5ch;
+    border-radius: 50%;
+    background-color: transparent;
+    color: var(--blue-grey-600);
+    cursor: pointer;
+  }
+  
+.date-grid button:hover,
+.date-grid button:focus {
+    outline: none;
+    background-color: var(--blue-grey-050);
+    color: var(--blue-grey-700);
+  }
+  
+.date-grid button:active,
+.date-grid button.is-selected {
+    background-color: var(--teal-100);
+    color: var(--teal-900);
+  }
+
+
+
+/* Avaliações */
+#avaliacoes {
+    background-color: var(--light);
+}
+
+/* Rodapé */
+#footer{
+    background-color: #BFC6DF;
+    text-decoration: none;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: lightslategray;
+    transition: .5s;
+}
+
+header .menu{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color:var(--fundoMenu);
+  padding: 24px;
+
+}
+
+a{
+  text-decoration: none;
+  color: var(--fontePrincipal);
+  margin-right: 15px;
+  font-size: 13px;
+  font-weight: bold;
+
+}
