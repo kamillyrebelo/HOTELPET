@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/PaginadePagamento.css">
+    <title>Pagina de Pagamento</title>
+</head>
+
+<body>
+    <header>
+        <div id="cabecalho">
+            <h1> <img src="imagens/Dog.png" alt=""> HomePet</h1>
+        </div>
+    </header>
+
+    <div class="col-md-6">
+        <div id="reservar">
+            <h1>Pedir para reservar <img src="imagens/patinha.png" alt=""></h1>
+            <p>Hospedagem do seu pet</p>
+            <p>Datas</p>
+        </div>
+
+        <div id="pagamento">
+            <h1>Pagar com <img src="imagens/cartoes.png" alt=""></h1>
+            <select class="form-select" aria-label="Default select example">
+                <option value="1">Cartão de crédito</option>
+                <option value="2">Transferência bancaria</option>
+                <option value="3">Boleto</option>
+                <option value="4">Pix</option>
+            </select>
+
+            <div id="main-container">
+                <form id="Formulario">
+                    <div id="numerocartao" class="full-box">
+                        <label for="text"></label>
+                        <input type="text" name="numero" id="numcartao" placeholder="Número do cartão">
+                    </div>
+                    <div id="validadecvv">
+                        <div id="validade">
+                            <label for="text"></label>
+                            <input type="text" name="validade" id="validade" placeholder="Validade">
+                        </div>
+                        <div id="cvv">
+                            <label for="number"></label>
+                            <input type="number" name="cvv" id="cvv" placeholder="CVV">
+                        </div>
+                    </div>
+                    <div id="nomesobrenome">
+                        <label for="text"></label>
+                        <input type="text" name="Nome" id="Nome" placeholder="Nome">
+                        <label for="text"></label>
+                        <input type="text" name="Sobrenome" id="Sobrenome" placeholder="Sobrenome">
+                        <label for="number"></label>
+                        <input type="number" name="CPF" id="CPF" placeholder="CPF">
+                    </div>
+                </form>
+            </div>
+
+            <div id="formulario"></div>
+
+            <div id="informacoes" class="col-md-6">
+
+            </div>
+        </div>
+
+</body>
+
+</html>
